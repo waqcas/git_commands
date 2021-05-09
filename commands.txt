@@ -24,6 +24,30 @@ git log --oneline -3[last 3]
 git log --author="waqas"
 
 
+//restore to an earlier version
+git restore --source=HEAD file.js
+
+
+//view a commit
+git show d60190
+git show HEAD
+git show HEAD~1
+git show HEAD:abc.txt
+
+
+//files involoved in particular commit
+git ls-tree HEAD
+
+
+//unstaging files
+git resotre --staged file2.txt
+
+
+//discards local changed
+git resotre file1.js
+git clean -fd
+
+
 
 
 
