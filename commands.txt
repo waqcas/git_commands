@@ -1,0 +1,29 @@
+git --version
+git init
+git ls-files (to view files in statging area)
+git add file2
+git commit -m
+git status (for working area/staging area)
+git commit -am (skip staging area)
+git rm file2.txt (removes file from local as well as staging area)
+git mv file2.txt file1.txt
+.gitignore
+git status -s (short status)
+
+
+//Diff
+git diff --staged
+git diff
+
+
+//History
+git log
+git log --oneline
+git log --oneline --reverse
+git log --oneline -3[last 3]
+git log --author="waqas"
+
+
+
+
+
