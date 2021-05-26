@@ -1,3 +1,9 @@
+===================== GIT CONFIGURATION COMMANDS ===================
+
+
+
+====================================================================
+
 git --version
 git init
 git ls-files (to view files in statging area)
