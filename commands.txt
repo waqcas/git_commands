@@ -28,12 +28,14 @@ git diff --staged
 git diff
 
 
-//History
+===================== GIT HISTORY ===================
 git log
 git log --oneline
 git log --oneline --reverse
 git log --oneline -3[last 3]
 git log --author="waqas"
+====================================================================
+
 
 
 //restore to an earlier version
