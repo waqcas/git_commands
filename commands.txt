@@ -4,6 +4,12 @@
 
 ====================================================================
 
+===================== GIT FETCH ===================
+git init
+git fetch <remote> <branch>
+git fetch https://github.com/waqcas/curran.git 30.drop-down
+====================================================================
+
 git --version
 git init
 git ls-files (to view files in statging area)
