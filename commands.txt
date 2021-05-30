@@ -6,6 +6,7 @@
 
 ===================== GIT FETCH ===================
 git fetch <remote> <branch>
+git fetch origin master
 git fetch https://github.com/waqcas/curran.git 30.drop-down
 ====================================================================
 
