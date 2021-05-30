@@ -4,6 +4,12 @@
 
 ====================================================================
 
+===================== GIT REMOTE ===================
+git remote
+git remote add origin https://github.com/waqcas/curran.git
+====================================================================
+
+
 ===================== GIT FETCH ===================
 git fetch <remote> <branch>
 git fetch origin master
