@@ -9,6 +9,12 @@ git fetch <remote> <branch>
 git fetch https://github.com/waqcas/curran.git 30.drop-down
 ====================================================================
 
+===================== GIT CLONE ===================
+git clone -b 30.drop-down https://github.com/waqcas/curran.git
+git clone --branch 30.drop-down https://github.com/waqcas/curran.git
+====================================================================
+
+
 git --version
 git init
 git ls-files (to view files in statging area)
