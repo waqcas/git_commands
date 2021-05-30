@@ -14,6 +14,11 @@ git clone -b 30.drop-down https://github.com/waqcas/curran.git
 git clone --branch 30.drop-down https://github.com/waqcas/curran.git
 ====================================================================
 
+===================== GIT CLONE ===================
+git clone -b 30.drop-down https://github.com/waqcas/curran.git
+git clone --branch 30.drop-down https://github.com/waqcas/curran.git
+====================================================================
+
 
 git --version
 git init
