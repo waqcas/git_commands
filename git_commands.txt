@@ -4,6 +4,11 @@
 
 ====================================================================
 
+===================== Authenticatoin Using PAT (Personal Access Tokens)=========
+git config --global credential.helper cache (for storing PAT)
+now use any of the command that requires authenticatoin... it will store PAT
+
+================================================================================
 ===================== GIT REMOTE ===================
 git remote
 git remote add origin https://github.com/waqcas/curran.git
