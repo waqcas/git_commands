@@ -1,3 +1,5 @@
+-> git log --oneline
+
 Git Reset
 ----------
 
@@ -8,3 +10,12 @@ Git Reset
   
 -> git reset 4deaf --hard 
     this command also changes the working directory..
+
+Git Revert
+----------
+-> git revert 29abce
+    it reverts one particular commit
+    
+Git Checkout
+------------
+ used to see state of code in earlier commit..
