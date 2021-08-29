@@ -1,0 +1,10 @@
+Git Reset
+----------
+
+-> git reset 4deaf
+  it takes us back .. but our working directory has not changed..
+  so we can commit changes again..
+  
+  
+-> git reset 4deaf --hard 
+    this command also changes the working directory..
