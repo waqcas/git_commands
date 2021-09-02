@@ -1,5 +1,5 @@
 ===================== GIT CONFIGURATION COMMANDS ===================
-
+git config --list
 
 
 ====================================================================
@@ -37,7 +37,13 @@ git resote ./src/index.js     ---> restore local changes
 git clean -fd                 ---> remove files/folders - restore local changes
 ====================================================================
 
-
+===================== UNSTAGING FILES ==============================
+git reset fileName.txt
+git reset .
+============================================================
+===================== UNSTAGING FILES & CLEANING WORKING DIRECTORY =============
+git reset --hard
+================================================================================
 
 
 git --version
