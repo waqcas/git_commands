@@ -45,6 +45,14 @@ git reset .
 git reset --hard
 ================================================================================
 
+==================== RESET vs REVERT ===========================================
+RESET IS USED AFTER [ git add . ] BUT BEFORE COMMIT.
+REVERT IS USED AFTER COMMIT.
+REVERT DOES NOT DELETE COMMIT .. 
+IN REVERT VERSION CONTROL MOVES FORWARD WHILE HISTORY MOVES BACKWARD.
+REVERT GENERATES NEW COMMIT ID..
+================================================================================
+
 
 git --version
 git init
