@@ -56,6 +56,15 @@ IN REVERT VERSION CONTROL MOVES FORWARD WHILE HISTORY MOVES BACKWARD.
 REVERT GENERATES NEW COMMIT ID..
 ================================================================================
 
+===================== TAGS ====================================================
+MEANINGFUL NAME TO COMMIT
+
+git tag -a <tagname> -m <message> <commitid>
+git tag [to see list of tag list]
+git show <tagname>
+git tag -d <tagname>
+================================================================================
+
 
 git --version
 git init
