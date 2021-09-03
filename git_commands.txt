@@ -32,9 +32,12 @@ git clone --branch 30.drop-down https://github.com/waqcas/curran.git
 git push <origin> <remote_branch_name>
 ====================================================================
 
-===================== GIT RESTORE ===================
+===================== DEALING WITH UNTRACKED FILES ===================
 git resote ./src/index.js     ---> restore local changes
 git clean -fd                 ---> remove files/folders - restore local changes
+
+git clean -f [-f force.. git will not warn]
+git clean -n [git will ask before deletion]
 ====================================================================
 
 ===================== UNSTAGING FILES ==============================
