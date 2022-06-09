@@ -35,6 +35,7 @@ git remote remove origin
 
 
 ===================== GIT FETCH ===================
+Git fetch is a safer alternative because it pulls in all the commits from your remote but doesn't make any changes
 git fetch <remote> <branch>
 git fetch origin master
 git fetch https://github.com/waqcas/curran.git 30.drop-down
