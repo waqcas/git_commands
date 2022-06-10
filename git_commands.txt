@@ -30,6 +30,7 @@ now use any of the command that requires authenticatoin... it will store PAT
 git remote
 git remote add origin https://github.com/waqcas/curran.git
 
+git remote -v [to view remote repository]
 git remote remove origin
 ====================================================================
 
